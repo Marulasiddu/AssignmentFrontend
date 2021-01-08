@@ -1,0 +1,54 @@
+.container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background: lightblue;
+}
+
+.missions{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.eachmission{
+    width: 200px;
+    height: 250px;
+    margin: 5px;
+    padding: 10px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.missionimg{
+    width: 100px;
+    height: 100px;
+}
+
+.missiondesc{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.eachdesc{
+    display: flex;
+}
+
+.datacnt{
+    width: 100%;
+}
+
+.title{
+    font-size: 13px;
+    font-weight: 600;
+    color: blue;
+}
+
+.subtitle{
+    font-size: 12px;
+    font-weight: 500;
+}
